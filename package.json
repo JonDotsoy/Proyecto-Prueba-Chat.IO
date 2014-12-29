@@ -1,0 +1,17 @@
+{
+  "name": "chat.io",
+  "version": "1.0.0-alfa",
+  "private": true,
+  "description": "Este proyecto, integra un Chat desarrollado, solo para probar el funcionamiento de un Chat dentro de HTML5 y NODE.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "author": "Jonathan Delgado Zamorano <jonad.correo@gmail.com> (http://jonad.in/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.6",
+    "socket.io": "^1.2.1"
+  }
+}
